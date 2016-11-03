@@ -8,6 +8,11 @@ author: "James Colliander"
 include: ['_pages']
 permalink: /:title/
 
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard-wrap: false
+
 relative_permalinks: false
 
 #gems: ['jekyll-less']
