@@ -8,6 +8,11 @@
     color: black;
 }
 
+.bg-primary.even {
+    background-color: black;
+    color: white;
+}
+
 aside.bg-primary.odd {
     background-color: black;
     color: #a6228f;
