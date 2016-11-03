@@ -12,12 +12,9 @@
     background-color: black;
     color: white;
 }
-
 aside.bg-primary.odd {
-    background-color: black;
-    color: #a6228f;
+    background-color: #a6228f;
 }
-
 p {
     font-weight: 200;
 }
