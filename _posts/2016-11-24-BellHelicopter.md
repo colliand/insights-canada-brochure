@@ -6,6 +6,8 @@ category: success
 
 # Design - Bell Helicopter
 
+<img src="/img/portfolio/Helicopter.png", width=400 >
+
 An important part of the design of a new helicopter is the flight test,
 where data is collected measuring the forces on different components of
 the helicopter. Before a helicopter design can be approved, one needs to
