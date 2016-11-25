@@ -6,8 +6,6 @@ category: success
 
 # Design - Bell Helicopter
 
-<img src="/img/portfolio/Helicopter.png", width=400 >
-
 ![helicopter](/img/portfolio/Helicopter.png){:class="img-responsive center-block"}{:width=150}
 
 An important part of the design of a new helicopter is the flight test,
