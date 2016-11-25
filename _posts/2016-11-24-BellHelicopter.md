@@ -8,6 +8,8 @@ category: success
 
 <img src="/img/portfolio/Helicopter.png", width=400 >
 
+![laptop](/img/portfolio/Helicopter.png)
+
 An important part of the design of a new helicopter is the flight test,
 where data is collected measuring the forces on different components of
 the helicopter. Before a helicopter design can be approved, one needs to
