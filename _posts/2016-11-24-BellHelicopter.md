@@ -2,6 +2,8 @@
 title: Success Story 34
 shorttitle: Design
 category: success
+layout: default
+lang: en
 ---
 
 # Design - Bell Helicopter
