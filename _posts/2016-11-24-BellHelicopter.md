@@ -1,8 +1,11 @@
 ---
 title: Success Story 34
 shorttitle: Design
-category: success
+categories: 
+  - en
+  - success
 layout: default
+ref: helicopter
 lang: en
 ---
 

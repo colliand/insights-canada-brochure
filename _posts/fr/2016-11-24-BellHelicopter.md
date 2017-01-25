@@ -1,10 +1,11 @@
 ---
-title: Success Story 34
-shorttitle: Design
+title: Conception d'appareil - Bell Helicopter
+shorttitle: Helicopter
 categories:
   - fr
   - success
 layout: default
+ref: helicopter
 lang: fr
 ---
 

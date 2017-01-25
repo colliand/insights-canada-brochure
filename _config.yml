@@ -1,8 +1,15 @@
-title: "Insights Canada"
+title: 
+  en: "Insights Canada"
+  fr: "Pistes de solutions Canada"
 header-img: "img/map_clusters_hi_caption.jpg"
 email: "learn@insightscanada.org"
 url: "http://insightscanada.org/"
-description: "Insights Canada -- Mathematical sciences talent helping business find solutions. Insights Canada is a collaborative effort led by Canada's mathematical and statistical sciences institutes."
+description: 
+  en: "Insights Canada -- Mathematical sciences talent helping business find solutions. Insights Canada is a collaborative effort led by Canada's mathematical and statistical sciences institutes."
+  fr: "Pistes de solutions Canada"
+index:
+  en:
+  fr: accueil
 author: "James Colliander"
 
 include: ['_pages']
@@ -15,10 +22,75 @@ kramdown:
 
 relative_permalinks: false
 
-#gems: ['jekyll-less']
-
 assets:
   sources:
    - _assets/fonts
    - _assets/js
    - _assets/css
+
+t:
+  nav:
+    en:
+      - name: 'About'
+        url: '#about'
+      - name: 'Partners'
+        url: '#partners'
+      - name: 'Funding'
+        url: '#funding'
+      - name: 'Success Stories'
+        url: '/success/'
+      - name: 'Contact'
+        url: '#contact'
+    fr:
+      - name: 'Qui sommes-nous?'
+        url: '#about'
+      - name: 'Partenaires'
+        url: '#partners'
+      - name: 'Financement'
+        url: '#funding'
+      - name: 'Histoires de cas'
+        url: '/histoires-de-cas/'
+      - name: 'Contactez-nous'
+        url: '#contact'
+  form:
+    description:
+      en: "Is your business ready for eureka?"
+      fr: "Votre entreprise est-elle prête pour eureka?"
+    name:
+      en: "Your name"
+      fr: "Votre nom"
+    email:
+      en: "Your email"
+      fr: "Votre email"
+    message:
+      en: "Your message"
+      fr: "Votre message"
+    submit:
+      en: "Send"
+      fr: "Soumettre"
+  partners:
+    description:
+      en: "Your solution partners"
+      fr: "Vos partenaires por les solutions"
+  funding:
+    description:
+      en: "Your funding partners"
+      fr: "Vos partenaires pour le financement"
+  solutions:
+    description:
+      en: "Find Solutions"
+      fr: "Trouver des solutions"
+  contact:
+    description:
+      en: "Ready to explore a collaboration? Give us a call or send us an email and we will get back to you as soon as possible."
+      fr: "Êtes-vous prêts à parler de collaboration?  Appelez-nous ou envoyez-nous un courriel et nous communiquerons avec vous dès que possible."
+  about:
+    heading:
+      en: "Analytics, Optimization, Algorithms"
+      fr: "Des spécialistes en analyses avancées, optimisation et algorithmes"
+    desription:
+      en: "Launched by the mathematical and statistical sciences institutes, Insights Canada matches businesses with scientists and students in research universities to solve problems."
+      fr: "Lancé par les instituts de sciences mathématiques et statistiques, Pistes de solutions Canada permet aux entreprises de trouver des chercheurs et des étudiants universitaires qui les aideront à résoudre leurs problèmes."
+    button:
+      en: "Get Started!"
+      fr: "Commencer!"

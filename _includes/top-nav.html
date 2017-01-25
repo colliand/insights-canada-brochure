@@ -1,7 +1,4 @@
----
-layout: default
----
-
+<!-- Navigation -->
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -12,23 +9,23 @@ layout: default
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">{{ site.title[page.lang] }}</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                {% for post in site.categories.success %}
+                {% for menu in site.t.nav[page.lang] %}
                 <li>
-                <a class="page-scroll" href="#{{ post.shorttitle }}">{{ post.shorttitle }}</a>
+                <a class="page-scroll" href="{{ menu.url }}">{{ menu.name }}</a>
                 </li>
                 {% endfor %}
+                {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+                {% for post in posts %} <li><a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a></li> {% endfor %}
+                {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                {% for page in pages %} <li><a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a></li> {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
 </nav>
-
-{{ content }}
-<hr>
-<!-- Navigation -->
