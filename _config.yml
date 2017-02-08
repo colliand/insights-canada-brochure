@@ -61,7 +61,7 @@ t:
       fr: "Votre nom"
     email:
       en: "Your email"
-      fr: "Votre email"
+      fr: "Votre courriel"
     message:
       en: "Your message"
       fr: "Votre message"
@@ -71,7 +71,7 @@ t:
   partners:
     description:
       en: "Your solution partners"
-      fr: "Vos partenaires por les solutions"
+      fr: "Vos partenaires pour les solutions"
   funding:
     description:
       en: "Your funding partners"
@@ -92,5 +92,5 @@ t:
       en: "Launched by the mathematical and statistical sciences institutes, Insights Canada matches businesses with scientists and students in research universities to solve problems."
       fr: "Lancé par les instituts de sciences mathématiques et statistiques, Pistes de solutions Canada permet aux entreprises de trouver des chercheurs et des étudiants universitaires qui les aideront à résoudre leurs problèmes."
     button:
-      en: "Get Started!"
-      fr: "Commencer!"
+      en: "Let's connect!"
+      fr: "Faites-nous signe!"
