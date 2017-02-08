@@ -84,9 +84,9 @@ t:
     description:
       en: "Ready to explore a collaboration? Give us a call or send us an email and we will get back to you as soon as possible."
       fr: "Êtes-vous prêts à parler de collaboration?  Appelez-nous ou envoyez-nous un courriel et nous communiquerons avec vous dès que possible."
-     header:
-       en: "Let's Connect!"
-       fr: "Faites-nous signe!"
+    header:
+      en: "Let's Connect!"
+      fr: "Faites-nous signe!"
   about:
     heading:
       en: "Analytics, Optimization, Algorithms"
