@@ -10,18 +10,6 @@ then
     exit 1;
 fi
 
-if [[ ! -d .git/worktrees/_site ]] ; then
-    echo "No worktree found for _site!"
-    rm -rf _site
-    git worktree add -B gh-pages _site origin/gh-pages
-    jekyll build
-    cd _site
-    git add --all && git commit -m "Publishing to gh-pages"
-    cd ..
-    git push origin gh-pages
-    exit
-fi
-
 echo "Deleting old publication"
 rm -rf _site
 mkdir _site
@@ -29,7 +17,7 @@ git worktree prune
 rm -rf .git/worktrees/_site
 
 echo "Checking out gh-pages branch into _site"
-git worktree add -B template _site origin/template
+git worktree add -B gh-pages _site origin/gh-pages
 
 echo "Removing existing files"
 rm -rf _site/*
