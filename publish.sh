@@ -10,7 +10,7 @@ then
     exit 1;
 fi
 
-if ! -d .git/worktrees/_site ; then
+if [[ ! -d .git/worktrees/_site ]] ; then
     echo "No worktree found for _site!"
     rm -rf _site
     git worktree add -B gh-pages _site origin/gh-pages
