@@ -74,8 +74,22 @@ t:
       en: "Your solution partners"
       fr: "Vos partenaires pour les solutions"
     description:
-      en: "The five institutes"
-      fr: "Les cinq instituts blah blah blah"
+      en: "Solutions Canada is a joint venture of the five mathematical and statistical sciences 
+          institutes in Canada, reaching out to businesses requiring expertise in the quantitative 
+          sciences to advance the success of their operations. The mission of these institutes is 
+          to promote research, training and collaboration in the mathematical and statistical sciences, 
+          including applications for industrial innovation. 
+          Solutions Canada endeavours to match businesses with research challenges to outstanding 
+          mathematicians, statisticians, computer scientists, and their students at universities 
+          across the country."
+      fr: "Solutions Canada est une coentreprise des cinq instituts de sciences mathématiques et 
+          statistiques au Canada, qui s'adresse aux entreprises qui ont besoin d'une expertise en 
+          sciences quantitatives pour faire avancer le succès de leurs activités. La mission de ces 
+          instituts est de promouvoir la recherche, la formation et la collaboration dans les 
+          sciences mathématiques et statistiques, y compris les applications industrielle. 
+          Solutions Canada s'efforce de faire correspondre les entreprises aux défis de la recherche 
+          auxquels sont confrontés les mathématiciens, les statisticiens, les informaticiens et leurs 
+          étudiants dans les universités à travers le pays."
   funding:
     header:
       en: "Your funding partners"
