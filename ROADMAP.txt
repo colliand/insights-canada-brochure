@@ -1,0 +1,22 @@
+Notes from Michael.
+
+_config.yml has a bunch of real content.
+CNAME says what the web page address is
+accueil.html, index.html are french and english versions of a basic page. Don't change.
+LICENSE, README, .gitignore can all be ignored
+
+Folders:
+
+css, fonts, js can all be ignored
+
+_site can be ignored (it is build by Jekyll when making a site)
+
+img  contains all the image files. Some are in subfolder "profolio" for no particular reason
+
+_posts contains the "Examples" markdown files, loaded automatically. "fr" subfolder has the French versions
+
+_pages has two files in it that define part of the menu structure
+
+_layout has two files, but the important one is front.html. It defines how the front page of the website will look.
+
+_includes is the most important folder. It has a bunch of files which defines how individual parts of teh webpages will look. Some of it drags content out of _config.yml. Note there is some inconsistency in how we use "header" and "description" in this content. I am trying to re-jig this so it is consistent. (Headers should be short, descriptions can be longer. Every section should have a header, but not all need a description.)

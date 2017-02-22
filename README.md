@@ -14,7 +14,7 @@ Start Bootstrap was created by and is maintained by **David Miller**, Managing P
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-## Image Credit
+## Hero Image Credit
 
 Geographical map of global scientific collaboration, computed by Ollivier H. Beauchesne & Scimago Lab, data from Elsevier Scopus.
 

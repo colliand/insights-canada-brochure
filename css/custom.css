@@ -8,11 +8,13 @@
     color: black;
 }
 
-aside.bg-primary.odd {
+.bg-primary.even {
     background-color: black;
-    color: #a6228f;
+    color: white;
 }
-
+aside.bg-primary.odd {
+    background-color: #a6228f;
+}
 p {
     font-weight: 200;
 }

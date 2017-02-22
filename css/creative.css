@@ -41,7 +41,7 @@ p {
   background-color: #a6228f;
 }
 .bg-dark {
-  background-color: #222222;
+  background-color: #222;
   color: white;
 }
 .text-faded {
@@ -79,7 +79,7 @@ aside {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
-  color: #222222;
+  color: #222;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -128,14 +128,14 @@ aside {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #222;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #a6228f;
   }
 }
-header {
+header.hero {
   position: relative;
   width: 100%;
   min-height: auto;
@@ -148,33 +148,33 @@ header {
   text-align: center;
   color: white;
 }
-header .header-content {
+header.hero .header-content {
   position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
   overflow: auto;
 }
-header .header-content .header-content-inner h1 {
+header.hero .header-content .header-content-inner h1 {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
 }
-header .header-content .header-content-inner hr {
+header.hero .header-content .header-content-inner hr {
   margin: 30px auto;
 }
-header .header-content .header-content-inner p {
+header.hero .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
-  header {
+  header.hero {
     min-height: 100%;
   }
-  header .header-content {
+  header.hero .header-content {
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -182,12 +182,12 @@ header .header-content .header-content-inner p {
     transform: translateY(-50%);
     padding: 0 50px;
   }
-  header .header-content .header-content-inner {
+  header.hero .header-content .header-content-inner {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
   }
-  header .header-content .header-content-inner p {
+  header.hero .header-content .header-content-inner p {
     font-size: 18px;
     max-width: 80%;
     margin-left: auto;
@@ -286,9 +286,9 @@ header .header-content .header-content-inner p {
   padding-left: 0;
 }
 .btn-default {
-  color: #222222;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  color: #222;
+  background-color: white;
+  border-color: white;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -299,7 +299,7 @@ header .header-content .header-content-inner p {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #222222;
+  color: #222;
   background-color: #911e7d;
   border-color: #881c75;
 }
@@ -326,15 +326,15 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #ffffff;
-  border-color: #ffffff;
+  background-color: white;
+  border-color: white;
 }
 .btn-default .badge {
-  color: #ffffff;
-  background-color: #222222;
+  color: white;
+  background-color: #222;
 }
 .btn-primary {
-  color: #ffffff;
+  color: white;
   background-color: #a6228f;
   border-color: #a6228f;
   -webkit-transition: all 0.35s;
@@ -347,7 +347,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-  color: #ffffff;
+  color: white;
   background-color: #911e7d;
   border-color: #881c75;
 }
@@ -379,7 +379,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-primary .badge {
   color: #a6228f;
-  background-color: #ffffff;
+  background-color: white;
 }
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -394,12 +394,12 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #222;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #222;
 }
 img::selection {
   color: white;
@@ -410,5 +410,9 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #222;
+}
+ul > li > a.en:lang(en),
+ul > li > a.fr:lang(fr) {
+  border: 1px solid;
 }

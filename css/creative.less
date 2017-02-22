@@ -153,7 +153,7 @@ aside {
 
 // Homepage Header
 
-header {
+header.hero {
     position: relative;
     width: 100%;
     min-height: auto;
@@ -363,4 +363,11 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @theme-dark;
+}
+
+ul > li {
+    > a.en:lang(en),
+    > a.fr:lang(fr) {
+        border: 1px solid;
+    }
 }
