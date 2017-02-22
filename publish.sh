@@ -16,7 +16,7 @@ mkdir _site
 git worktree prune
 rm -rf .git/worktrees/_site
 
-echo "Checking out gh-pages branch into public"
+echo "Checking out gh-pages branch into _site"
 git worktree add -B template _site origin/template
 
 echo "Removing existing files"
