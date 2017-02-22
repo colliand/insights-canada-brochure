@@ -26,5 +26,5 @@ echo "Generating site"
 jekyll build
 
 echo "Updating gh-pages branch"
-cd _site && git add --all && git commit -m "Publishing to template (ansible.sh)" && git push
+cd _site && git add --all && git commit -m "Publishing _site to gh-pages" && git push
 
