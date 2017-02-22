@@ -1,12 +1,12 @@
 title: 
-  en: "Insights Canada"
-  fr: "Pistes de solutions Canada"
+  en: "Solutions Canada"
+  fr: "Solutions Canada"
 header-img: "img/map_clusters_hi_caption.jpg"
-email: "learn@insightscanada.org"
-url: "http://insightscanada.org/"
+email: "contact@solutionscanada.com"
+url: "http://solutionscanada.com/"
 description: 
-  en: "Insights Canada -- Mathematical sciences talent helping business find solutions. Insights Canada is a collaborative effort led by Canada's mathematical and statistical sciences institutes."
-  fr: "Pistes de solutions Canada"
+  en: "Solutions Canada -- Mathematical sciences talent helping business find solutions. Solutions Canada is a collaborative effort led by Canada's mathematical and statistical sciences institutes."
+  fr: "Solutions Canada -- Le talent des sciences mathématiques aide les entreprises à trouver des solutions. Solutions Canada est un collaboration mené par les instituts des sciences mathématiques et statistiques du Canada."
 index:
   en:
   fr: accueil
@@ -69,11 +69,14 @@ t:
       en: "Send"
       fr: "Soumettre"
   partners:
-    description:
+    header:
       en: "Your solution partners"
       fr: "Vos partenaires pour les solutions"
-  funding:
     description:
+      en: "The five institutes"
+      fr: "Les cinq instituts blah blah blah"
+  funding:
+    header:
       en: "Your funding partners"
       fr: "Vos partenaires pour le financement"
   solutions:
@@ -91,9 +94,9 @@ t:
     heading:
       en: "Analytics, Optimization, Algorithms"
       fr: "Des spécialistes en analyses avancées, optimisation et algorithmes"
-    desription:
-      en: "Launched by the mathematical and statistical sciences institutes, Insights Canada matches businesses with scientists and students in research universities to solve problems."
-      fr: "Lancé par les instituts de sciences mathématiques et statistiques, Pistes de solutions Canada permet aux entreprises de trouver des chercheurs et des étudiants universitaires qui les aideront à résoudre leurs problèmes."
+    description:
+      en: "Launched by the mathematical and statistical sciences institutes, Solutions Canada matches businesses with scientists and students in research universities to solve problems."
+      fr: "Lancé par les instituts de sciences mathématiques et statistiques, Solutions Canada permet aux entreprises de trouver des chercheurs et des étudiants universitaires qui les aideront à résoudre leurs problèmes."
     button:
       en: "Let's connect!"
       fr: "Faites-nous signe!"
