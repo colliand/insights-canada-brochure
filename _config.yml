@@ -83,14 +83,14 @@ t:
           Solutions Canada endeavours to match businesses with research challenges to outstanding 
           mathematicians, statisticians, computer scientists, and their students at universities 
           across the country."
-      fr: "Solutions Canada est une coentreprise des cinq instituts de sciences mathématiques et 
-          statistiques au Canada, qui s'adresse aux entreprises qui ont besoin d'une expertise en 
-          sciences quantitatives pour faire avancer le succès de leurs activités. La mission de ces 
-          instituts est de promouvoir la recherche, la formation et la collaboration dans les 
-          sciences mathématiques et statistiques, y compris les applications industrielle. 
-          Solutions Canada s'efforce de faire correspondre les entreprises aux défis de la recherche 
-          auxquels sont confrontés les mathématiciens, les statisticiens, les informaticiens et leurs 
-          étudiants dans les universités à travers le pays."
+      fr: "Solutions Canada est un projet conjoint des cinq instituts de sciences
+          mathématiques et statistiques du Canada, visant les entreprises qui ont
+          besoin d'une expertise en sciences quantitatives pour faire réussir leurs
+          activités. La mission de ces instituts est de promouvoir la recherche, la
+          formation et la collaboration en sciences mathématiques et statistiques, y
+          compris les applications industrielles. Solutions Canada s'efforce de
+          mobiliser les mathématiciens, les statisticiens, les informaticiens et
+          leurs étudiants pour qu'ils s'attaquent aux défis des entreprises."
   funding:
     header:
       en: "Your funding partners"
