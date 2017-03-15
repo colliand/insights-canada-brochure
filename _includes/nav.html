@@ -18,7 +18,7 @@
                 {% for post in posts %}
                 {% if post.categories contains page.lang %}
                 <li>
-                <a class="page-scroll" href="#{{ post.shorttitle }}">{{ post.shorttitle }}</a>
+                <a class="page-scroll" href="#{{ post.ref }}">{{ post.shorttitle }}</a>
                 </li>
                 {% endif %}
                 {% endfor %}
