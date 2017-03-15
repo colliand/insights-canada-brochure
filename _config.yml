@@ -1,7 +1,7 @@
 title: 
   en: "Solutions Canada"
   fr: "Solutions Canada"
-header-img: "img/map_clusters_hi_caption.jpg"
+header-img: "img/map_clusters_hi_caption_brite.jpg"
 email: "contact@solutionscanada.com"
 url: "http://solutionscanada.com/"
 description: 
@@ -35,10 +35,10 @@ t:
     en:
       - name: 'About'
         url: '#about'
-      - name: 'Partners'
-        url: '#partners'
-      - name: 'Funding'
-        url: '#funding'
+#      - name: 'Partners'
+#        url: '#partners'
+#      - name: 'Funding'
+#        url: '#funding'
       - name: 'Success Stories'
         url: '/success/'
       - name: 'Contact'
@@ -46,14 +46,45 @@ t:
     fr:
       - name: 'Qui sommes-nous?'
         url: '#about'
-      - name: 'Partenaires'
-        url: '#partners'
-      - name: 'Financement'
-        url: '#funding'
+#      - name: 'Partenaires'
+#        url: '#partners'
+#     - name: 'Financement'
+#        url: '#funding'
       - name: 'Histoires de cas'
         url: '/histoires-de-cas/'
       - name: 'Contactez-nous'
         url: '#contact'
+  introduction:
+    header:
+      en: "Is your business ready for eureka?"
+      fr: "Votre entreprise est-elle prête pour eureka?"
+    description:
+      en: "
+          Solutions Canada matches businesses and their researchers to outstanding
+          mathematicians, statisticians, computer scientists, and their students at universities 
+          across the country.
+          We reach out to businesses and non-profits that seek expertise in the quantitative 
+          sciences to advance the success of their organization's operations. 
+          Solutions Canada is a joint venture of  five mathematical and statistical sciences 
+          institutes in Canada. The mission of these institutes is 
+          to promote research, training and collaboration in the mathematical and statistical sciences, 
+          including applications for industrial innovation. 
+          "
+      fr: "
+          Solutions Canada s'efforce de
+          mobiliser les mathématiciens, les statisticiens, les informaticiens et
+          leurs étudiants pour qu'ils s'attaquent aux défis des entreprises.
+          Nous visons à aider les entreprises qui ont
+          besoin d'une expertise en sciences quantitatives pour faire réussir leurs
+          activités. 
+          Solutions Canada est un projet conjoint des cinq instituts de sciences
+          mathématiques et statistiques du Canada. La mission de ces instituts est de promouvoir la recherche, la
+          formation et la collaboration en sciences mathématiques et statistiques, y
+          compris les applications industrielles. 
+          "
+    button:
+      en: "Let's connect!"
+      fr: "Faites-nous signe!"
   form:
     description:
       en: "Is your business ready for eureka?"
@@ -75,14 +106,16 @@ t:
       en: "Your solution partners"
       fr: "Vos partenaires pour les solutions"
     description:
-      en: "Solutions Canada is a joint venture of the five mathematical and statistical sciences 
+      en: "
+          Solutions Canada is a joint venture of the five mathematical and statistical sciences 
           institutes in Canada, reaching out to businesses requiring expertise in the quantitative 
           sciences to advance the success of their operations. The mission of these institutes is 
           to promote research, training and collaboration in the mathematical and statistical sciences, 
           including applications for industrial innovation. 
-          Solutions Canada endeavours to match businesses with research challenges to outstanding 
+          Solutions Canada  matches businesses with research challenges to outstanding 
           mathematicians, statisticians, computer scientists, and their students at universities 
-          across the country."
+          across the country.
+          "
       fr: "Solutions Canada est un projet conjoint des cinq instituts de sciences
           mathématiques et statistiques du Canada, visant les entreprises qui ont
           besoin d'une expertise en sciences quantitatives pour faire réussir leurs
@@ -100,12 +133,19 @@ t:
       en: "Find Solutions"
       fr: "Trouver des solutions"
   contact:
-    description:
-      en: "Ready to explore a collaboration? Send us an email and we will get back to you as soon as possible."
-      fr: "Êtes-vous prêts à parler de collaboration?  Envoyez-nous un courriel et nous communiquerons avec vous dès que possible."
     header:
       en: "Let's Connect!"
       fr: "Faites-nous signe!"
+    description:
+      en: "Ready to explore a collaboration? Tell us who you are, tell us about your company, 
+      and the research problems you need to address. Solutions Canada will get back to you with some ideas and
+      possible research contacts."
+      fr: "Prêt à explorer une collaboration? Dites-nous qui vous êtes, de votre entreprise,
+      et des problemes de recherche dont vous avez besoin de traiter. Solutions Canada vous répondra avec quelques idées et
+      contacts de recherche."
+    description2:
+      en: "Or click below to send us an email about your company and its interests."
+      fr: "Ou cliquez ci-dessous pour nous envoyer un courriel concernant votre entreprise et ses intérêts."
   about:
     heading:
       en: "Analytics, Optimization, Algorithms"

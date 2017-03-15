@@ -12,7 +12,27 @@
                 <p>+1 604 822 3922</p>
             </div>
             -->
-            <div class="col-lg-4 col-lg-offset-4 text-center">
+            <!-- Let's try putting the form here. --> 
+            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4 text-center">
+                <form action="https://formspree.io/contact@solutionscanada.com" method="POST">
+                    <fieldset class="form-group">
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="name" placeholder="{{ site.t.form.name[page.lang] }}">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <input type="email" class="form-control form-control-lg" name="_replyto" id="exampleInputEmail1" placeholder="{{ site.t.form.email[page.lang] }}" >
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <textarea class="form-control" id="exampleTextarea" rows="3" name="message" placeholder="{{ site.t.form.message[page.lang] }}">
+                        </textarea>
+                    </fieldset>
+                    <input type="submit" value="{{ site.t.form.submit[page.lang] }}" class="btn btn-primary btn-xl page-scroll">
+                </form>
+            </div>
+        </div>
+        <div class="row">
+             <div class="col-lg-4 col-lg-offset-4 text-center">
+                <hr class="primary">
+                <p>{{ site.t.contact.description2[page.lang] }}</p>
                 <i class="fa fa-envelope-o fa-3x" data-wow-delay=".1s"></i>
                 <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
             </div>

@@ -1,10 +1,10 @@
 {% assign posts=site.posts | where:"lang", page.lang %}
 {% for post in posts %}
 {% if post.categories contains page.lang %}
-<section class="bg-primary {% cycle 'odd', 'even' %}" id="{{post.shorttitle}}">
+<section class="bg-primary {% cycle 'even', 'odd' %}" id="{{post.shorttitle}}">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
                 {{ post.content }}
             </div>
         </div>

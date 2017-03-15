@@ -1,6 +1,6 @@
 ---
-title: Conception d'appareil - Bell Helicopter
-shorttitle: Helicopter
+title: Aérospatial - Bell Helicopter
+shorttitle: Aérospatial
 categories:
   - fr
   - success
@@ -9,7 +9,13 @@ ref: helicopter
 lang: fr
 ---
 
-# Conception d'appareil - Bell Helicopter
+## HISTOIRES DE CAS
+
+------
+
+## Aérospatial - Bell Helicopter
+
+#### Les chercheurs en CRM ont réduit les coûts des essais de résistance sur le terrain des nouveaux modèles d'hélicoptères en utilisant des méthodes de réduction des données pour identifier les forces et les paramètres clés à surveiller en fonction des données recueillies lors des essais en vol.
 
 ![helicopter](/img/portfolio/Helicopter.png){:class="img-responsive center-block"}{:width=150}
 

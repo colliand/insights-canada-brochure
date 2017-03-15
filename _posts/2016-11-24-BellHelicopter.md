@@ -1,38 +1,45 @@
 ---
 title: Success Story 34
-shorttitle: Design
+shorttitle: Aerospace
 categories: 
   - en
   - success
 layout: default
-ref: helicopter
+ref: aerospace
 lang: en
 ---
 
-# Design - Bell Helicopter
+# SUCCESS STORIES
 
-![helicopter](/img/portfolio/Helicopter.png){:class="img-responsive center-block"}{:width=150}
+------
+
+## Aerospace - Bell Helicopter
+
+#### CRM researchers reduced costs on in-the-field stress tests of new helicopter designs by using data reduction methods to identify key forces and parameters to monitor based on data collected in flight tests. 
+
+![helicopter](/img/portfolio/Helicopter.png){:class="img-responsive center-block"}{:width=120}
 
 An important part of the design of a new helicopter is the flight test,
-where data is collected measuring the forces on different components of
-the helicopter. Before a helicopter design can be approved, one needs to
-know that the design can withstand these forces over the expected lifetime
+where data is collected to measure the forces on different components of
+the helicopter. Before a helicopter design is approved, stress tests are required to 
+demonstrate that the design can withstand these forces over the expected lifetime
 of the helicopter. A physical stress test is costly and time consuming,
-and it can only apply about a half-dozen forces. Therefore it is essential
+and it can only investigate about a half-dozen forces. It is essential
 to choose the correct forces from the flight test, which will then be
-applied in the physical stress tests. The correct forces are the extreme
-(i.e., most important) forces in directions that cause wear and tear.
+applied in the physical stress tests. The correct forces are the most extreme
+forces in directions that cause wear and tear.
 Choosing these forces is difficult, since millions of data points are
-measured during the flight test and the data points are in high
+measured during the flight test and the data points evolve in high
 dimensions.
 
-The testing team uses expert knowledge to determine which points are
-likely to be important. Data reduction is required, however. Our team
-hoped to find a blind data reduction method that would agree with
-the points found using expert knowledge. A research team consisting of a
-professor, postdoctoral fellows, undergraduate students, and graduate
-students worked with the team from Bell Helicopter using ideas from convex
+Traditionally, Bell Helicopter uses expert knowledge to determine which data points are
+likely to be important. The CRM team proposed
+building a blind data reduction method with the aim of matching the selection achieved with expert knowledge. A research team consisting of a
+professor, postdoctoral fellows, undergraduate and graduate
+students worked with Bell Helicopter using ideas from convex
 analysis and computational mathematics to find the required extreme
-points. The results of the blind algorithm agreed with the results
-provided by expert knowledge. The results were used in time to go ahead
-with the physical stress testing on a new model of helicopter.
+points. The results of the blind algorithm was a success, with the results
+agreeing with the experts. 
+
+These results led to successful physical stress testing on the new model of helicopter.
+
