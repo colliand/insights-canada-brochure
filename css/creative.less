@@ -130,22 +130,8 @@ aside {
             }
         }
         &.affix {
-            background-color: white;
-            border-color: fade(@theme-dark, 5%);
             .navbar-header .navbar-brand {
-                color: @theme-primary;
                 font-size: 14px;
-                &:hover,
-                &:focus {
-                    color: @theme-focus;
-                }
-            }
-            .nav > li > a,
-            .nav > li > a:focus {
-                color: @theme-dark;
-                &:hover {
-                    color: @theme-primary;
-                }
             }
         }
     }
@@ -159,7 +145,7 @@ header.hero {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../img/map_clusters_hi_caption.jpg');
+    background-image: url('../img/map_clusters_hi_caption_brite.jpg');
     text-align: center;
     color: white;
     .header-content {
@@ -187,7 +173,7 @@ header.hero {
         }
     }
     @media (min-width: 768px) {
-        min-height: 100%;
+        min-height: 90%;
         .header-content {
             position: absolute;
             top: 50%;

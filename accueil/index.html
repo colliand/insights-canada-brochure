@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-  <head>
+  <head> 
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,7 +56,7 @@
 
   <body>
 
-      <div class="wrapper" style="text-align: right; line-height: 2em">
+      <div class="wrapper" style="text-align: right; line-height: 2em"> 
     
     
     
@@ -73,7 +73,19 @@
             <hr>
             <!-- <a href="#about" class="btn btn-primary btn-xl page-scroll">Ready for Eureka?</a> -->
         </div>
-        <div class="col-lg-8 col-lg-offset-2 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Votre entreprise est-elle prête pour eureka?</h2>
+                <hr class="primary">
+                <p> Solutions Canada s'efforce de mobiliser les mathématiciens, les statisticiens, les informaticiens et leurs étudiants pour qu'ils s'attaquent aux défis des entreprises. Nous visons à aider les entreprises qui ont besoin d'une expertise en sciences quantitatives pour faire réussir leurs activités. Solutions Canada est un projet conjoint des cinq instituts de sciences mathématiques et statistiques du Canada. La mission de ces instituts est de promouvoir la recherche, la formation et la collaboration en sciences mathématiques et statistiques, y compris les applications industrielles. </p>
+                <a href="#contact" class="btn btn-default btn-xl">Faites-nous signe!</a>
+
+            </div>
+        </div>
+    </div>
+    <!--  MOVE ALL THIS TO THE CONTACT PAGE, AS REQUESTED. MPL
+       <div class="col-lg-8 col-lg-offset-2 text-center">
             <h3 class="section-heading">Votre entreprise est-elle prête pour eureka?</h3>
             <br>
         </div>
@@ -91,10 +103,11 @@
                 <input type="submit" value="Soumettre" class="btn btn-primary btn-xl page-scroll">
             </form>
         </div>
+        -->
     </div>
 </header>
 
-      <!-- Navigation -->
+      <!-- Navigation --> 
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -113,14 +126,6 @@
                 
                 <li>
                 <a class="page-scroll" href="#about">Qui sommes-nous?</a>
-                </li>
-                
-                <li>
-                <a class="page-scroll" href="#partners">Partenaires</a>
-                </li>
-                
-                <li>
-                <a class="page-scroll" href="#funding">Financement</a>
                 </li>
                 
                 <li>
@@ -151,13 +156,13 @@
                 <h2 class="section-heading">Des spécialistes en analyses avancées, optimisation et algorithmes</h2>
                 <hr class="light">
                 <p class="text-faded">Lancé par les instituts de sciences mathématiques et statistiques, Solutions Canada permet aux entreprises de trouver des chercheurs et des étudiants universitaires qui les aideront à résoudre leurs problèmes.</p>
-                <a href="#" class="btn btn-default btn-xl">Faites-nous signe!</a>
+                <a href="#contact" class="btn btn-default btn-xl">Faites-nous signe!</a>
             </div>
         </div>
-    </div>
+    </div>  
 </section>
 
-      <section id="partners">
+      <section id="partners"> 
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -202,7 +207,7 @@
     </div>
 </section>
 
-      <section id="funding">
+      <section id="funding"> 
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -227,23 +232,14 @@
     </div>
 </section>
 
-      <aside class="bg-primary">
-    <div class="container text-center">
-        <div class="call-to-action">
-            <!-- <h2>Free Download at Start Bootstrap!</h2> -->
-            <a href="#" class="btn btn-default btn-xl">Trouver des solutions</a>
-        </div>
-    </div>
-</aside>
-
       
-      <section id="contact">
+      <section id="contact" class="bg-primary">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">Faites-nous signe!</h2>
                 <hr class="primary">
-                <p>Êtes-vous prêts à parler de collaboration?  Envoyez-nous un courriel et nous communiquerons avec vous dès que possible.</p>
+                <p>Prêt à explorer une collaboration? Dites-nous qui vous êtes, de votre entreprise, et des problemes de recherche dont vous avez besoin de traiter. Solutions Canada vous répondra avec quelques idées et contacts de recherche.</p>
             </div>
             <!--
             <div class="col-lg-4 col-lg-offset-2 text-center">
@@ -251,7 +247,26 @@
                 <p>+1 604 822 3922</p>
             </div>
             -->
-            <div class="col-lg-4 col-lg-offset-4 text-center">
+            <!-- Let's try putting the form here. --> 
+            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4 text-center">
+                <form action="https://formspree.io/contact@solutionscanada.com" method="POST">
+                    <fieldset class="form-group">
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="name" placeholder="Votre nom">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <input type="email" class="form-control form-control-lg" name="_replyto" id="exampleInputEmail1" placeholder="Votre courriel" >
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <textarea class="form-control" id="exampleTextarea" rows="3" name="message" placeholder="Votre message"></textarea>
+                    </fieldset>
+                    <input type="submit" value="Soumettre" class="btn btn-default btn-xl page-scroll">
+                </form>
+            </div>
+        </div>
+        <div class="row">
+             <div class="col-lg-4 col-lg-offset-4 text-center">
+                <hr class="primary">
+                <p>Ou cliquez ci-dessous pour nous envoyer un courriel concernant votre entreprise et ses intérêts.</p>
                 <i class="fa fa-envelope-o fa-3x" data-wow-delay=".1s"></i>
                 <p><a href="mailto:contact@solutionscanada.com">contact@solutionscanada.com</a></p>
             </div>
@@ -261,7 +276,7 @@
 
 
       <!-- footer -->
-<!-- jQuery -->
+<!-- jQuery --> 
 <script src="/js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
