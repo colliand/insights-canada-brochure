@@ -9,13 +9,13 @@ ref: aerospace
 lang: en
 ---
 
-# SUCCESS STORIES
+## SUCCESS STORIES 
 
 ------
 
 ## Aerospace - Bell Helicopter
 
-#### CRM researchers reduced costs on in-the-field stress tests of new helicopter designs by using data reduction methods to identify key forces and parameters to monitor based on data collected in flight tests. 
+#### CRM researchers reduced costs on physical stress tests of new helicopter designs by using data reduction methods to identify key forces and parameters to monitor based on data collected in flight tests. 
 
 ![helicopter](/img/portfolio/Helicopter.png){:class="img-responsive center-block"}{:width=120}
 

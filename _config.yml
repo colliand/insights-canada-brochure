@@ -57,7 +57,7 @@ t:
   introduction:
     header:
       en: "Is your business ready for eureka?"
-      fr: "Votre entreprise est-elle prête pour eureka?"
+      fr: "Votre entreprise est-elle prête pour eurêka?"
     description:
       en: "
           Solutions Canada matches businesses and their researchers to outstanding
@@ -88,7 +88,7 @@ t:
   form:
     description:
       en: "Is your business ready for eureka?"
-      fr: "Votre entreprise est-elle prête pour eureka?"
+      fr: "Votre entreprise est-elle prête pour eurêka?"
     name:
       en: "Your name"
       fr: "Votre nom"
@@ -140,9 +140,9 @@ t:
       en: "Ready to explore a collaboration? Tell us who you are, tell us about your company, 
       and the research problems you need to address. Solutions Canada will get back to you with some ideas and
       possible research contacts."
-      fr: "Prêt à explorer une collaboration? Dites-nous qui vous êtes, de votre entreprise,
-      et des problemes de recherche dont vous avez besoin de traiter. Solutions Canada vous répondra avec quelques idées et
-      contacts de recherche."
+      fr: "Prêt à explorer une collaboration? Dites-nous qui vous êtes, ce que fait votre entreprise, et quels sont les
+          problèmes de recherche qui se posent dans celle-ci. Solutions Canada vous
+          fournira quelques pistes de solutions et des contacts universitaires."
     description2:
       en: "Or click below to send us an email about your company and its interests."
       fr: "Ou cliquez ci-dessous pour nous envoyer un courriel concernant votre entreprise et ses intérêts."
@@ -156,3 +156,7 @@ t:
     button:
       en: "Let's connect!"
       fr: "Faites-nous signe!"
+  success:
+    heading:
+      en: "SUCCESS STORIES"
+      fr: "HISTORIES DE CAS"
