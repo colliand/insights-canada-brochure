@@ -399,3 +399,7 @@ ul > li > a.en:lang(en),
 ul > li > a.fr:lang(fr) {
   border: 1px solid;
 }
+section#contact a {
+  color: #FFF;
+  text-decoration: unerline;
+}
