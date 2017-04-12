@@ -2,7 +2,7 @@
     <div class="container text-center">
         <div class="call-to-action">
             <!-- <h2>Free Download at Start Bootstrap!</h2> -->
-            <a href="/#contact" class="btn btn-default btn-xl">{{ site.t.solutions.description[page.lang] }}</a>
+            <a href="/{{ site.index[page.lang] }}{% if site.index[page.lang] %}/{% endif %}index.html#contact" class="btn btn-default btn-xl">{{ site.t.solutions.description[page.lang] }}</a>
         </div>
     </div>
 </aside>
