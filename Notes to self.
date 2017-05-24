@@ -1,0 +1,52 @@
+Notes to self.
+
+We have three branches at solutions repo, and I'm getting confused!
+- master branch seems to be the fixed code
+= gh-pages seems to be the source for creating the pretty final version. I think it is the last trusted version.
+- ver2 is my branch that I was fixing to give to Ian.
+
+
+So, to make fixes I need to update to the master branch. (I think. Maybe it is Gh-pages. Ask Ian.)
+
+So, so this:
+- git checkout master
+- git pull
+(which will switch me to master branch)
+
+I fucked around with success.html, it should look like this now:
+{% assign posts=site.posts | where:"lang", page.lang %} 
+{% for post in posts %}
+{% if post.categories contains page.lang %}
+<section class="bg-primary {% cycle 'even', 'odd' %}" id="{{post.shorttitle}}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h1 class="section-heading">{{ site.t.success.heading[page.lang] }}</h1>
+                <hr class="primary">
+                 {{ post.content }}
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+{% endfor %}
+
+I also removed a couple things from Bell Helicopter that put in a fake like. Because success.html does it for me now. So fix those too. 
+
+
+ANd on _config.yml add to the bottom
+success:
+    heading:
+      en: "SUCCESS STORIES"
+      fr: "HISTORIES DE CAS"
+
+To build the site locally, use the terminal and type:
+jekyll build
+
+To see the site as it should look online, use the terminal and type
+jekyll serve
+
+To launch the site for everyone to see (caution: this is public), type
+surge _site
+
+
